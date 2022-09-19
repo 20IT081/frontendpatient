@@ -17,8 +17,7 @@ function App() {
         <Route path="patient/:patientId" element={<Patient/>} />
         <Route path="patientList" element={ <PatientList/>} />
       </Routes>
-    </div>
-  );
+    </div> );
 }
 
 export default App;
